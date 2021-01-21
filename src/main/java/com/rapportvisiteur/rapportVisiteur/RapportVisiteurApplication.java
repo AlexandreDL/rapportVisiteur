@@ -22,7 +22,7 @@ public class RapportVisiteurApplication {
 		VisiteurServiceItf visiteurService = ctx.getBean(VisiteurServiceItf.class);
 		RapportRepositoryItf rapportRepository = ctx.getBean(RapportRepositoryItf.class);
 		RapportServiceItf rapportService = ctx.getBean(RapportServiceItf.class);
-		
+		System.out.println("modif1");
 		
 		Visiteur visiteur1 = new Visiteur(1L, "LEVOTHYROX", new Date()); 
 		Visiteur visiteur2 = new Visiteur(2L, "KLIKLI", new Date()); 
